@@ -1,0 +1,80 @@
+ul.shopping-cart{
+	position: auto!important;
+	top: 100px !important;
+	right: 0 !important;
+	background-color: #F9F9F9 !important;
+	padding: 10px !important;
+	min-width: 250px !important;
+	list-style: none !important;
+	font-size: 0.8em !important;
+	border: 1px solid #F0F0F0 !important;
+}
+ul.shopping-cart .cart-itm {
+	margin-bottom: 10px !important;
+	border-bottom: 1px solid #ddd !important;
+	padding-bottom: 8px !important;
+}
+ul.shopping-cart .cart-itm:last-child{
+	border-bottom: none !important;
+	margin-bottom: 0px !important;
+}
+ul.shopping-cart .cart-itm .remove-itm{
+	float: right !important;
+	font-size: 1.5em !important;
+}
+ul.shopping-cart .cart-itm .remove-itm a{
+	text-decoration:none !important; 
+	color:#000 !important;
+}
+.cart-total-text a{
+	float:right !important;
+}
+.cart-view-table-front h3{
+	text-align: center !important;
+	padding: 0 !important;
+	margin: 0px 0px 6px 0px !important;
+}
+.cart-view-table-front, .cart-view-table-back {
+	max-width: 700px !important;
+	background-color: #FFFFFF !important;
+	margin-left: 500px !important;
+	margin-right: 100px !important;
+	padding: 10px !important;
+	box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.12) !important;
+	border: 1px solid #E4E4E4 !important;
+}
+.cart-view-table-front table th, .cart-view-table-back table th{
+	text-align: left !important;
+}
+.cart-view-table-front table thead, .cart-view-table-back table thead{
+	background-color: #9CCDFD !important;
+}
+.cart-view-table-front table tbody tr.even, .cart-view-table-back table tbody tr.even{
+	background-color: #F7F7F7 !important;
+}
+.cart-view-table-front table tbody tr.odd, .cart-view-table-back table tbody tr.odd{
+	background-color: #EDEDED !important;
+}
+.cart-view-table-front button, .cart-view-table-front .button, .cart-view-table-back button, .cart-view-table-back .button{
+	margin: 10px 1px !important;
+	float: right !important;
+}
+ul.products li fieldset label select{
+	min-width: 100px;
+}
+
+button, .button{
+	background-color: #39b3d7;
+	min-width: 100px;
+	border: none;
+	padding: 10px;
+	display: inline-block;
+	text-align: center;
+	cursor: pointer;
+	text-decoration: none;
+	color: #FFF;
+	min-height: 15px;
+	font: 12px/15px Arial, Helvetica, sans-serif;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.26);
+	border-radius: 3px;
+}
